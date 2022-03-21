@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name":"janjib",
+    "subscribedToChannel":"JanjibDEV"
+}
+
+###
+
+GET http://localhost:3000/subscribers/623553f4d17ae16652c99850
+
+### 
+
+DELETE http://localhost:3000/subscribers/623553f4d17ae16652c99850 
+
+###
+
+PATCH http://localhost:3000/subscribers/62355489d17ae16652c99854
+Content-Type: application/json
+
+{
+    "name":"Muhammad Rujhan Najib"
+}
+
+ 

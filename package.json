@@ -12,11 +12,10 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongoose": "^6.2.7"
-  },
-  "devDependencies": {
+    "mongoose": "^6.2.7",
     "nodemon": "^2.0.15"
   },
+  "devDependencies": {},
   "engines": {
     "node": "14.17.0"
   }
